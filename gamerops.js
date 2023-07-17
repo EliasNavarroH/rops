@@ -1,4 +1,22 @@
 
+document.addEventListener("DOMContentLoaded", function () {
+  let rock = document.querySelector(".rock");
+  rock.addEventListener('click', function(){
+    rpsGame("rock");
+  });
+ 
+  let paper = document.querySelector(".paper");
+  paper.addEventListener('click', function(){
+    rpsGame("paper");
+  });
+
+  let scissors = document.querySelector(".scissors");
+  scissors.addEventListener('click', function(){
+  rpsGame("scissors");
+  });
+
+});
+
 
 function getComputerChoice(){
     let game = Math.floor(Math.random()*3);
@@ -13,10 +31,6 @@ function getComputerChoice(){
  
 function rpsGame(playerSelection, computerSelection){
     
-    
-    let game = prompt("Choose: Rock, Paper or Scissors:");
-    playerSelection = game;
-    playerSelection = playerSelection.toLowerCase();
     computerSelection = getComputerChoice()
 
     if (playerSelection == "rock" & computerSelection == "rock"){
@@ -53,7 +67,7 @@ function game(){
     for (gameCounts = 0;gameCounts < 5; gameCounts++){
         console.log(rpsGame());
     }
-
-}
+} 
 
 console.log(game());
+
