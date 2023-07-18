@@ -44,8 +44,6 @@ function rpsGame(playerSelection, computerSelection){
     computerSelection = getComputerChoice()
 
     if (playerSelection == "rock" & computerSelection == "rock"){
-        computerScore = computerScore + 1;
-        playerScore = playerScore+ 1;
         console.log(playerScore);
         console.log(computerScore);
         return alert("Computer choose Rock!\n It's a Tie !")
@@ -69,8 +67,6 @@ function rpsGame(playerSelection, computerSelection){
         return alert("Computer choose Rock !\n You Win!, paper beats rock")
     }
     else if (playerSelection == "paper" & computerSelection == "paper"){
-        computerScore = computerScore + 1;
-        playerScore = playerScore+ 1;
         console.log(playerScore);
         console.log(computerScore);
         return  alert("Computer choose Paper!\n It's a Tie")
@@ -94,8 +90,6 @@ function rpsGame(playerSelection, computerSelection){
         return alert("You Win!, scissors beats paper")
     }
     else {
-        computerScore = computerScore + 1;
-        playerScore = playerScore+ 1;
         console.log(playerScore);
         console.log(computerScore);
         return alert("Its a Tie")
@@ -111,11 +105,11 @@ function determineWinner(){
         let count = document.createElement("p");
         let text
         if (playerScore > computerScore){
-            text = document.createTextNode(`5 Games played:\n you scored: ${playerScore} and the computer: ${computerScore}`);
+            text = document.createTextNode(`5 Games played:\n You scored: ${playerScore} and the computer: ${computerScore}`);
             count.appendChild(text);
         }
         else if (playerScore < computerScore){
-            text = document.createTextNode(`5 Games played:\n you scored: ${playerScore} and the computer: ${computerScore}`);
+            text = document.createTextNode(`5 Games played:\n You scored: ${playerScore} and the computer: ${computerScore}`);
             count.appendChild(text);
         }
         else {
@@ -126,5 +120,6 @@ function determineWinner(){
         gameScore.appendChild(count);
     }
 }
+
 
 

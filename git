@@ -1,0 +1,35 @@
+[33mcommit 5b79d500a26e7c432f5918ce4b11b8896e844686[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/rops-ui[m[33m, [m[1;32mrops-ui[m[33m)[m
+Author: EliasNavarroh <eliasnvr@icloud.com>
+Date:   Tue Jul 18 14:43:13 2023 -0300
+
+    testing
+
+[33mcommit 198480058b83a729b25ef0279d16c69cd4a2b9df[m
+Author: EliasNavarroh <eliasnvr@icloud.com>
+Date:   Tue Jul 18 14:32:39 2023 -0300
+
+    adding the determinewinner to execute after 5 games, also adding the points on the rpsgame in each variable and adding those points in te playerscore and computerscore
+
+[33mcommit 1b344cdf30a18ea2f26e202118092b3d4a2b10cf[m
+Author: EliasNavarroh <eliasnvr@icloud.com>
+Date:   Mon Jul 17 13:01:46 2023 -0300
+
+    Chhanging the game method by usign buttons instead of text prompt
+
+[33mcommit be8e904bddb34aacadd4bb4001d252ccdf21dd5f[m
+Author: EliasNavarroh <eliasnvr@icloud.com>
+Date:   Mon Jul 17 09:36:53 2023 -0300
+
+    moving the script of the game to a separate file
+
+[33mcommit ebc1eeb1930d2e663bf3f1124a47dddc0c99d711[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: EliasNavarroh <eliasnvr@icloud.com>
+Date:   Sat May 27 16:26:36 2023 -0300
+
+    Creating the entire rock, paper, scissors game
+
+[33mcommit 541144523f1c4c86b9850f4fcacf90104b2734fb[m
+Author: Elias Navarro <105835058+EliasNavarroH@users.noreply.github.com>
+Date:   Thu May 25 17:29:01 2023 -0300
+
+    Initial commit
