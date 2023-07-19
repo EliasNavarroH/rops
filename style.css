@@ -1,8 +1,13 @@
 body{
     background-color: black;
 }
+.game-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-h1{
+h1,p{
     text-align: center;
     color: whitesmoke;
     
